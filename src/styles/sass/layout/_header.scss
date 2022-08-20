@@ -1,0 +1,43 @@
+/* ====================================== _____________ Header Styles _____________ ====================================== */
+header {
+  padding: 10px 0;
+  transition: $transition;
+  background-color: #fff;
+  width: 100%;
+  &.fixed {
+    position: fixed;
+    box-shadow: 0 3px 6px rgba($color: #000000, $alpha: 0.16) !important;
+  }
+  @include for_phone(){
+    background-color: #f00;
+  }
+  @include for_miniTb(){
+    background-color: #f00;
+  }
+  .navbar {
+    padding: 0;
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+    &_logo {
+      display: block;
+      max-width: 150px;
+      margin-bottom: 0;
+      @include for_phone(){
+        max-width: 50px;
+      }
+      @include for_miniTb(){
+        max-width: 60px;
+        width: 60px;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+/* ====================================== _____________ Header Styles _____________ ====================================== */

@@ -1,0 +1,19 @@
+/* ====================================== _____________ Card Styles _____________ ====================================== */
+@import '../../../styles/sass/utilities/variables';
+@import '../../../styles/sass/utilities/mixins';
+
+.portal{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba($color: #000000, $alpha: .4);
+    z-index: 199;
+    padding: 50px 0;
+    &_box{
+        background-color: $whtColor;
+       border-radius: 10px;
+    }
+}
+/* ====================================== _____________ Card Styles _____________ ====================================== */

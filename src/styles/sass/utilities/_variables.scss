@@ -1,0 +1,56 @@
+/* ====================================== _____________ Variables Styles _____________ ====================================== */
+// start color//
+$mainColor: rgb(4, 179, 223);
+$secColor: #222;
+$whtColor: #fff;
+$blkColor: #000;
+$textColor: #707070;
+// end color//
+
+// Start Bg Color//
+$overlayBg: rgba(
+  $color: $blkColor,
+  $alpha: 0.45,
+);
+// end Bg Color//
+
+// Font Sizes //
+$xsFont: 0.8rem; // 12.8px
+$smFont: 0.85rem; //13.6px
+$paragraphFont: 0.95rem; // 15.2px;
+$mainFont: 1rem; // 16px;
+$mdFont: 1.15rem; //18.4px
+$lgFont: 1.25rem; // 20px;
+$xlFont: 1.4rem; // 22.4px;
+$xxlFont: 1.6rem; // 25.6px;
+$xxxlFont: 1.8rem; // 28.8px;
+$bannerTextFont: 2rem; // 32px;
+$bannerHeadFont: 2.5rem; // 40px;
+// Font Sizes //
+
+// Font Weight //
+$fontLight: 300;
+$fontRegular: 400;
+$fontMedium: 600;
+$fontBold: 800;
+$fontBolder: 900;
+// Font Weight //
+
+// Transition //
+$fsTransition: all 0.2s ease-in-out;
+$transition: all 0.3s ease-in-out;
+$slTransition: all 0.5s ease-in-out;
+// Transition //
+
+$box-shadow: 0 3px 6px
+  rgba(
+    $color: $blkColor,
+    $alpha: 0.16,
+  );
+
+// Fonts Family //
+$englishFont: 'Obviously Demo';
+$arabicFont: 'Obviously Demo';
+$titleFont: 'Obviously Demo';
+// Fonts Family //
+/* ====================================== _____________ Variables Styles _____________ ====================================== */
