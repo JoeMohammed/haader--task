@@ -62,7 +62,7 @@ export default function useEditMovie(
     const oldMovies = categoryMovies?.filter((mov) => +mov.id !== +item.id);
     console.log(oldMovies);
     if (oldMovies && oldMovies?.length > 0) {
-      const newMovies = [{ ...oldMovies }, { ...data }];
+      const newMovies = [...oldMovies, { ...data }];
       const docRef = doc(db, 'categories', id);
       await updateDoc(docRef, { movies: [...newMovies] })
         .then((response) => {
